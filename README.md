@@ -6,4 +6,3 @@ SOFE 3720 Assignment 1
 | Umar Ehsan | 100634240 |
 | Ryuji Komai | 100631883 |
 | Craig Savage | 100615968 |
-| Mohtasim Siddiqui | 100635463 |
