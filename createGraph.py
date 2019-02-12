@@ -96,7 +96,10 @@ def read_elevations(filename):
         # fact that the data file is given in big-endian format which is unusual these days...
         # you may of course load this into some other data structure as you see best
         elevs.append(struct.unpack('<h',estr[spot:spot+2])[0])
-    print(elevs)
+    print("Elevations:")
+    for elevation in elevs:
+        print(elevation)
+        #input()
 
 def read_xml(filename):
     '''
@@ -131,7 +134,7 @@ def main():
     #thewin = MyWin(master,line,circle)
     MyWin(master,line,circle)
 
-    read_elevations("elevation.bil")
+    read_elevations("n43_w114_1arc_v2.bil")
     # in Python you have to start the event loop yourself:
     tk.mainloop()
 
