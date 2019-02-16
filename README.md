@@ -1,5 +1,5 @@
-# AI-Assignment1
-SOFE 3720 Assignment 1
+# Introduction to Artificial Intelligence/Artificial Intelligence
+## SOFE 3720 Assignment 1
 
 | Student Name | Student ID |
 | :---     | :--- |
